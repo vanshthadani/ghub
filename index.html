@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Web Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <h1 class="logo">Vansh Thadani</h1>
+
+  <div class="home-icon" title="Home">🏠</div>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Project Details</a>
+    <a href="#skills">Skills</a>
+    <a href="#recommendations">Recommendations</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h2>Welcome to My Portfolio</h2>
+  <p>Web Developer | Lifelong Learner | Tech Enthusiast</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+
+  <div class="about-container">
+    
+    <div>
+      <h3>Vansh Thadani</h3>
+      <p>
+        I am a motivated learner exploring front-end development, cloud services, 
+        and automation tools. I enjoy building responsive websites and collaborating 
+        on meaningful tech projects.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2 class="section-title">Skills</h2>
+
+  <div class="skills-container">
+
+    <div class="skills-box">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+      <p>HTML</p>
+    </div>
+
+    <div class="skills-box">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+      <p>CSS</p>
+    </div>
+
+    <div class="skills-box">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+      <p>JavaScript</p>
+    </div>
+
+    <div class="skills-box">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+      <p>Python</p>
+    </div>
+
+    <div class="skills-box">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg">
+      <p>Cloud Basics</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="project-grid">
+
+    <div class="project">
+      <h3>Weather App</h3>
+      <p>A real-time weather dashboard using JavaScript APIs.</p>
+    </div>
+
+    <div class="project">
+      <h3>Student Portal</h3>
+      <p>Python-based system to manage student data.</p>
+    </div>
+
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A clean responsive personal portfolio website.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- RECOMMENDATIONS -->
+<section id="recommendations">
+  <h2 class="section-title">Recommendations</h2>
+
+  <ul id="recommendationList">
+    <li>Excellent collaborator with strong attention to detail.</li>
+    <li>Quick learner who always meets deadlines.</li>
+    <li>Consistently delivers quality work.</li>
+  </ul>
+
+  <div class="recommend-form">
+    <textarea id="userRec" placeholder="Write new recommendation..."></textarea>
+    <button onclick="addRecommendation()">Submit</button>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
